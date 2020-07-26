@@ -1,0 +1,34 @@
+{
+    "name": "MaqueenRijden",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.3.6",
+        "randen bewegen": "github:tblnx/knipperend-hart2#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
